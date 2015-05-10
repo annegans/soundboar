@@ -1,0 +1,123 @@
+
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+body {
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(#FFE29E, #DCF9B2);
+
+}
+
+p{
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  font-size:60px;
+  margin-top: 8%;
+
+
+}
+
+.box{
+  border: 20px;
+  border-color: red;
+}
+
+.circle{
+  -webkit-clip-path: circle(60px at center);
+  width: 400px;
+  height: 400px;
+  display: inline-block;
+  padding-right: %;
+  margin-top: -5%;
+  margin-right: -9%;
+  margin-left: -4%;
+}
+
+.rihanna{
+  
+  background: url('http://1.bp.blogspot.com/-RGtLgYYG0KU/Taau_6f7HFI/AAAAAAAAAAs/qK9A7-ExvP4/s1600/rihanna+rehab+official+single+cover.jpg') ; 
+}
+
+.rihanna:hover{
+   background-size: 30%;
+
+}
+
+.beyonce {
+  
+  background: url('http://static.djbooth.net/pics-tracks/drake-girlsloveb.jpg') ; 
+  background-size: 5% 
+}
+
+.beyonce:hover{
+   background-size: 30%;
+
+}
+
+/*the xx*/
+.thexx {
+  
+  background: url('http://ecx.images-amazon.com/images/I/51CX06m891L._SY300_.jpg') ; 
+  background-size: 5% 
+}
+
+.thexx:hover{
+   background-size: 30%;
+
+}
+
+/*ben howard*/
+
+.ben {
+  
+  background: url('http://ecx.images-amazon.com/images/I/41EkQLeGaKL.jpg') ; 
+  background-size: 5% 
+}
+
+.ben:hover{
+   background-size: 30%;
+
+}
+
+/*mr*/
+
+.mr {
+  
+  background: url('http://cdn3.pitchfork.com/albums/18412/homepage_large.bd263517.jpg') ; 
+  background-size: 5% 
+}
+
+.mr:hover{
+   background-size: 30%;
+
+}
+/*florance*/
+
+.florance {
+  
+  background: url('http://www.leakedearly.co/wp-content/uploads/2015/04/florence.jpg') ; 
+  background-size: 5% 
+}
+
+.florance:hover{
+   background-size: 30%;
+
+}
+/*angus*/
+
+/*
+.angus {
+  
+  background: url('http://www.albumkings.net/
+uploads/albums/Li3m4PbeEuYniWeHmxvHGzil5M6gcExN0xBwncx4Angus%20&%20Julia%20Stone%20-%20Angus%20&%20Julia%20Stone%20Deluxe%20Edition%20Album%20Download.jpg') ; 
+  background-size: 5% 
+}
+
+.angus:hover{
+   background-size: 30%;
+
+}*/
+
+
+
+
+
