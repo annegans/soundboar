@@ -90,6 +90,8 @@ var florance = soundManager.createSound({
 
         });  
 
+        
+//different version 
 var rihannaSong =  soundManager.createSound({
         id: 'ririSong',
         url: 'audiofiles/ri.mp3'

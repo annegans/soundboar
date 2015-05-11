@@ -1,9 +1,14 @@
 
 /*@import url(http://fonts.googleapis.com/css?family=Poiret+One);*/
+
+/*html{background: linear-gradient(#FFE29E, #FCFBF9);*/
+
+
+
 body {
-  width: 100%;
-  overflow: hidden;
-  background: linear-gradient(#FFE29E, #DCF9B2);
+  /*width: 100%;*/
+/*  overflow: hidden;*/
+  background: linear-gradient(#FFE29E, #FCFBF9) no-repeat center center fixed;
 
 }
 
@@ -22,6 +27,7 @@ p{
 
 }
 
+
 .box{
   border: 20px;
   border-color: red;
@@ -29,7 +35,6 @@ p{
 
 .circle{
   -webkit-clip-path: circle(60px at center);
-
   width: 400px;
   height: 400px;
   display: inline-block;
@@ -37,28 +42,32 @@ p{
   margin-top: -15%;
   margin-right: -9%;
   margin-left: -4%;
-  opacity: 0.5;
+  opacity:0.6;
+  margin-bottom: -6%;
 }
 
 .rihanna{
   
-  background: url('http://1.bp.blogspot.com/-RGtLgYYG0KU/Taau_6f7HFI/AAAAAAAAAAs/qK9A7-ExvP4/s1600/rihanna+rehab+official+single+cover.jpg') ; 
+  background: lightpink;
+
 }
 
 .rihanna:hover{
+  background: url('http://1.bp.blogspot.com/-RGtLgYYG0KU/Taau_6f7HFI/AAAAAAAAAAs/qK9A7-ExvP4/s1600/rihanna+rehab+official+single+cover.jpg') ; 
    background-size: 30%;
    opacity: 0.9;
    -webkit-clip-path: circle(100px at center);
+
 }
 
 .beyonce {
-  
-  background: url('http://static.djbooth.net/pics-tracks/drake-girlsloveb.jpg') ; 
+  background: rgb(249, 248, 125);
   background-size: 5% 
 
 }
 
 .beyonce:hover{
+  background: url('http://static.djbooth.net/pics-tracks/drake-girlsloveb.jpg') ;
    background-size: 30%;
    opacity: 0.9;
    -webkit-clip-path: circle(100px at center);
@@ -67,7 +76,7 @@ p{
 
 /*the xx*/
 .thexx {
-  background: url('http://ecx.images-amazon.com/images/I/51CX06m891L._SY300_.jpg') ; 
+  background: rgb(20, 228, 155);
   background-size: 5%; 
 
 }
@@ -76,16 +85,19 @@ p{
  background-size: 30%;
  opacity: 0.9;
   -webkit-clip-path: circle(100px at center);
+ background: url('http://ecx.images-amazon.com/images/I/51CX06m891L._SY300_.jpg') ; 
 }
 
 /*ben howard*/
 
 .ben {
   background: url('http://ecx.images-amazon.com/images/I/41EkQLeGaKL.jpg') ; 
-  background-size: 5% 
+  background-size: 5%;
+  background: rgb(29, 233, 255);
 }
 
 .ben:hover{
+ background: url('http://ecx.images-amazon.com/images/I/41EkQLeGaKL.jpg') ; 
  background-size: 30%;
  opacity: 0.9;
  -webkit-clip-path: circle(100px at center);
@@ -96,29 +108,91 @@ p{
 
 .mr {
   
-  background: url('http://cdn3.pitchfork.com/albums/18412/homepage_large.bd263517.jpg') ; 
-  background-size: 5%;
+  background-size: 20%;
+  background-color: rgb(232, 73, 232)
+
 }
 
 .mr:hover{
- background-size: 30%;
  opacity: 0.9;
  -webkit-clip-path: circle(100px at center);
+ background: url('http://cdn3.pitchfork.com/albums/18412/homepage_large.bd263517.jpg') ; 
+ 
 
 }
 /*florance*/
 
 .florance {
-  background: url('http://www.leakedearly.co/wp-content/uploads/2015/04/florence.jpg') ; 
-  background-size: 5% 
+  background-color:red;
+  
 }
 
 .florance:hover{
-   background-size: 60%;
+   
    opacity: 0.9;
    -webkit-clip-path: circle(100px at center);
+   background: url('http://www.leakedearly.co/wp-content/uploads/2015/04/florence.jpg') ; 
+   background-size:30%;
 
 }
+footer{
+  color:wit;
+}
+/*.text{
+    text-decoration: none;
+    margin-top: -18%;
+    font-size: 20px;
+    font-family: sans-serif;
+    letter-spacing: .2em;
+    height: 100%;
+}*/
+
+a{
+  text-decoration: none;
+  color:lightpink;
+    margin-top: -18%;
+    font-size: 20px;
+    font-family: sans-serif;
+    letter-spacing: .2em;
+    height: 100%;
+  
+
+}
+
+#ri{
+    padding-left: 6%;
+    color: rgb(20, 228, 155);
+
+}
+
+#be{
+      padding-left: 7.5%;
+      color:rgb(29, 233, 255);
+}
+
+#al{
+      padding-left: 10.4%;
+      color:red;
+}
+
+#ben{
+    
+    padding-left: 11%;
+    color:rgb(232, 73, 232)
+}
+
+#ms{
+    padding-left:6.8%;
+    color: rgb(249, 248, 125);
+}
+
+#fl{
+    padding-left:8.4%;
+    color: lightpink;
+}
+
+
+
 /*angus*/
 
 /*
