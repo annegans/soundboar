@@ -90,7 +90,7 @@ var florance = soundManager.createSound({
 
         });  
 
-        
+
 //different version 
 var rihannaSong =  soundManager.createSound({
         id: 'ririSong',
@@ -137,6 +137,67 @@ var rihannaSong =  soundManager.createSound({
         });
 
 }
+// //////////////code exapmle
+   // function resetInstrumental
+// function playsound(filename){
+//   console.log(filename):
+//   var sound = soundManager.createSound({
+//     url:"sounds/" +filename
+//   });
+//   sound.play();
+// }
 
+// function playInstrumental(){
+//   var instrumental = soundManager.getSounById("instrumental")
+//   if (typeof instrumental ==='undfined'){
+//   var sound = soundManager.createSound({
+//     url:"file"
+//     id: "instrumental"
+//   })
+// }else{
+//   soundManager.togglePause('mySound')
+// }
+// }
+
+// $(document).on('keypress',function(e){
+//     console.log("keyCode")
+//   if(e.keyCode === 113){
+//     var workIt = sound.createSound({
+//       url:"sound/work it.wav"
+//     })
+
+// }else if (e.keyCode === 119){
+//   cosole.log ('you pressed w');
+// }
+// })
+
+// $(document).on('keypress',function(e){
+//     console.log("keyCode")
+//     switch(e.keycode){//wat willen we checken 
+//     case 32;
+//     playSound("filename")
+//     break;
+   
+//     case 113:
+//     var workIt = sound.createSound({
+//       url:"sound/work it.wav"  
+//     })
+//     workIt.play()
+//     break;
+    
+//     case 119:
+//        case 109;
+//        resetInstrumental();
+// // 
+// var key = {
+//   113: 'q'
+//   119: 'w'
+// }
+// function highlightkey(keyCode){
+//   console.log(key[keyCode])
+//   $('li').removeClass('active')
+//   $('#' + key[keycode]).addclass('active');
+//   $('#q')
+// }
 
 

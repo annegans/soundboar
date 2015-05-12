@@ -9,13 +9,16 @@ body {
   /*width: 100%;*/
 /*  overflow: hidden;*/
   background: linear-gradient(#FFE29E, #FCFBF9) no-repeat center center fixed;
+/*
+  background-image: url(https://dorindaduclos.files.wordpress.com/2014/08/pink-clouds.jpg);
+  opacity: 0.3%;*/
 
 }
 
 p{
   text-align: center;
   font-size:60px;
-  margin-top: %;
+  margin-top: 10%;
   font-weight: 600;
   font-family: 'Avenir Next', sans-serif;
   text-transform: uppercase;
@@ -23,9 +26,22 @@ p{
   height: 100%;
   padding: 2em;
   color:white;
-
+  margin-top: -22%;
 
 }
+
+.line {
+  margin-top: 20%;
+  width: 63.3%;
+  height: 8px;
+  background: white;
+  top: 84px;
+  left: 0;
+  transition: width 1s ease;
+  z-index: 10;
+  margin-left: 17.9%;
+}
+
 
 
 .box{
@@ -39,7 +55,7 @@ p{
   height: 400px;
   display: inline-block;
   padding-right: %;
-  margin-top: -15%;
+  margin-top: -14%;
   margin-right: -9%;
   margin-left: -4%;
   opacity:0.6;
@@ -49,6 +65,7 @@ p{
 .rihanna{
   
   background: lightpink;
+
 
 }
 
@@ -71,6 +88,7 @@ p{
    background-size: 30%;
    opacity: 0.9;
    -webkit-clip-path: circle(100px at center);
+   
 
 }
 
@@ -150,11 +168,11 @@ footer{
 a{
   text-decoration: none;
   color:lightpink;
-    margin-top: -18%;
-    font-size: 20px;
-    font-family: sans-serif;
-    letter-spacing: .2em;
-    height: 100%;
+  margin-top: -18%;
+  font-size: 20px;
+  font-family: sans-serif;
+  letter-spacing: .2em;
+  height: 100%;
   
 
 }
