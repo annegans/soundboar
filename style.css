@@ -1,18 +1,7 @@
 
-/*@import url(http://fonts.googleapis.com/css?family=Poiret+One);*/
-
-/*html{background: linear-gradient(#FFE29E, #FCFBF9);*/
-
-
 
 body {
-  /*width: 100%;*/
-/*  overflow: hidden;*/
   background: linear-gradient(#FFE29E, #FCFBF9) no-repeat center center fixed;
-/*
-  background-image: url(https://dorindaduclos.files.wordpress.com/2014/08/pink-clouds.jpg);
-  opacity: 0.3%;*/
-
 }
 
 p{
@@ -27,7 +16,11 @@ p{
   padding: 2em;
   color:white;
   margin-top: -22%;
-
+  -webkit-animation-name: pulse;
+  animation-name:pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
 }
 
 .line {
@@ -40,9 +33,12 @@ p{
   transition: width 1s ease;
   z-index: 10;
   margin-left: 17.9%;
+  -webkit-animation-name: pulse;
+  animation-name:pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
 }
-
-
 
 .box{
   border: 20px;
@@ -62,52 +58,51 @@ p{
   margin-bottom: -6%;
 }
 
-.rihanna{
-  
+.circle:hover{
+  -webkit-animation-name:rotateIn;
+  animation-name:rotateIn;
+  -webkit-animation-duration: 0.8s;
+  animation-duration: 0.8s;
+}
+
+/*Per Rond de kleur plus achtergrond*/
+.rihanna{ 
   background: lightpink;
-
-
 }
 
 .rihanna:hover{
-  background: url('http://1.bp.blogspot.com/-RGtLgYYG0KU/Taau_6f7HFI/AAAAAAAAAAs/qK9A7-ExvP4/s1600/rihanna+rehab+official+single+cover.jpg') ; 
-   background-size: 30%;
-   opacity: 0.9;
-   -webkit-clip-path: circle(100px at center);
-
+  background: url('http://1.bp.blogspot.com/-RGtLgYYG0KU/Taau_6f7HFI/AAAAAAAAAAs/qK9A7-ExvP4/s1600/rihanna+rehab+official+single+cover.jpg');
+  background-size: 30%;
+  opacity: 0.9;
+  -webkit-clip-path: circle(100px at center);
 }
 
 .beyonce {
   background: rgb(249, 248, 125);
   background-size: 5% 
-
 }
 
 .beyonce:hover{
   background: url('http://static.djbooth.net/pics-tracks/drake-girlsloveb.jpg') ;
-   background-size: 30%;
-   opacity: 0.9;
-   -webkit-clip-path: circle(100px at center);
-   
-
+  background-size: 30%;
+  opacity: 0.9;
+  -webkit-clip-path: circle(100px at center);
 }
 
 /*the xx*/
 .thexx {
   background: rgb(20, 228, 155);
   background-size: 5%; 
-
 }
 
 .thexx:hover{
- background-size: 30%;
- opacity: 0.9;
+  background-size: 30%;
+  opacity: 0.9;
   -webkit-clip-path: circle(100px at center);
- background: url('http://ecx.images-amazon.com/images/I/51CX06m891L._SY300_.jpg') ; 
+  background: url('http://ecx.images-amazon.com/images/I/51CX06m891L._SY300_.jpg') ; 
 }
 
 /*ben howard*/
-
 .ben {
   background: url('http://ecx.images-amazon.com/images/I/41EkQLeGaKL.jpg') ; 
   background-size: 5%;
@@ -119,38 +114,29 @@ p{
  background-size: 30%;
  opacity: 0.9;
  -webkit-clip-path: circle(100px at center);
-
 }
 
 /*mr*/
-
 .mr {
-  
   background-size: 20%;
   background-color: rgb(232, 73, 232)
-
 }
 
 .mr:hover{
- opacity: 0.9;
- -webkit-clip-path: circle(100px at center);
- background: url('http://cdn3.pitchfork.com/albums/18412/homepage_large.bd263517.jpg') ; 
- 
-
+  opacity: 0.9;
+  -webkit-clip-path: circle(100px at center);
+  background: url('http://cdn3.pitchfork.com/albums/18412/homepage_large.bd263517.jpg') ;
 }
 /*florance*/
-
 .florance {
-  background-color:red;
-  
+  background-color:red; 
 }
 
 .florance:hover{
-   
-   opacity: 0.9;
-   -webkit-clip-path: circle(100px at center);
-   background: url('http://www.leakedearly.co/wp-content/uploads/2015/04/florence.jpg') ; 
-   background-size:30%;
+  opacity: 0.9;
+  -webkit-clip-path: circle(100px at center);
+  background: url('http://www.leakedearly.co/wp-content/uploads/2015/04/florence.jpg') ; 
+  background-size:30%;
 
 }
 footer{
@@ -211,20 +197,6 @@ a{
 
 
 
-/*angus*/
-
-/*
-.angus {
-  
-  background: url('http://www.albumkings.net/
-uploads/albums/Li3m4PbeEuYniWeHmxvHGzil5M6gcExN0xBwncx4Angus%20&%20Julia%20Stone%20-%20Angus%20&%20Julia%20Stone%20Deluxe%20Edition%20Album%20Download.jpg') ; 
-  background-size: 5% 
-}
-
-.angus:hover{
-   background-size: 30%;
-
-}*/
 
 
 
